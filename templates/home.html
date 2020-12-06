@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<div>
+    <form action="{% url 'post_new' %}" >
+        <input type="submit" value="Add New Post">
+    </form>
+</div>
+
 <ul>
     {% for item in object_list %}
     <li>

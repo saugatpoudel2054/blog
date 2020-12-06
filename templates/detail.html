@@ -12,4 +12,10 @@
 <p>
     {{ article.text}}
 </p>
+
+<form action="{% url 'post_edit' article.pk %}">
+    <button type="submit">Edit Post</button>
+</form>
+
+
 {% endblock content%}
