@@ -1,18 +1,25 @@
 body {
-    background-color: burlywood;
+    background-color: aqua;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    text-align: center;
-}
-
 li {
-    border: 2px solid black;
-    margin: 2em;
-    padding: 2em;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 2em;
 }
 
-.author{
-    text-decoration: underline;
+ul {
+    list-style-type: none;
+}
+
+input[type=text] {
+    padding:10px;
+    margin:10px 0;
+    border:0;
+    border-radius:10px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }

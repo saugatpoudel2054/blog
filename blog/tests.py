@@ -17,6 +17,7 @@ class BlogTests(TestCase):
             text='Nice body content',
             author=self.user,
         )
+        
     def test_string_representation(self):
         article = Article(title='A sample title')
         self.assertEqual(str(article), article.title)
