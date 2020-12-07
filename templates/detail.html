@@ -16,6 +16,12 @@
 <form action="{% url 'post_edit' article.pk %}">
     <button type="submit">Edit Post</button>
 </form>
+<br>
+<form action="{% url 'post_delete' article.pk %}">
+    <button type="submit">Delete Post</button>
+</form>
+
+
 
 
 {% endblock content%}
